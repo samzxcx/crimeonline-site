@@ -22,7 +22,7 @@ window.PROFILE_DATA = [
   },
   {
     name: "Dzr",
-    handle: "boywholovesvampires",
+    handle: "golpenointer",
     bio: "always more money",
     category: "",
     photo: "https://i.imgur.com/nTpenTl.png",
