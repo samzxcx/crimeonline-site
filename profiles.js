@@ -23,10 +23,10 @@ window.PROFILE_DATA = [
   {
     name: "Dzr",
     handle: "boywholovesvampires",
-    bio: "Bad Boys",
+    bio: "always more money",
     category: "",
     photo: "https://i.imgur.com/nTpenTl.png",
-    instagram: "https://instagram.com/opsec",
+    instagram: "https://instagram.com/golpenomaster",
     tiktok: "https://www.tiktok.com/opsec",
     roblox: "https://www.roblox.com/opsec"
   },
