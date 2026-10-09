@@ -8,7 +8,6 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
 
   <style>
-   
     * { box-sizing: border-box; }
 
     :root {
@@ -56,7 +55,6 @@
 
     body.unlocked #blood-trail { opacity: .9; }
 
-    
     main {
       position: relative;
       z-index: 1;
@@ -242,7 +240,20 @@
       transform: scale(1);
     }
 
-    
+    .brand-mark {
+      position: absolute;
+      top: 22px;
+      left: 50%;
+      width: 38px;
+      height: 38px;
+      opacity: .82;
+      transform: translateX(-50%);
+      transition: opacity .25s ease, transform .25s ease;
+    }
+
+    .brand-mark:hover { opacity: 1; transform: translateX(-50%) scale(1.08); }
+    .brand-mark img { display: block; width: 100%; height: 100%; }
+
     .profile-grid {
       width: min(100%, 930px);
       margin: auto;
@@ -500,7 +511,6 @@
       outline-offset: 4px;
     }
 
-    
     @media (hover: hover) and (pointer: fine) {
       .profile-grid:has(.profile:hover) .profile:not(:hover) {
         opacity: .72;
@@ -572,7 +582,6 @@
     .profile.is-open .profile-inner { transform: rotateY(180deg) scale(1.04); }
     .profile.is-open .profile-face { filter: none; opacity: 1; }
 
-    
     .sound {
       position: fixed;
       right: 22px;
@@ -602,7 +611,6 @@
     .sound.playing .equalizer i:nth-child(3) { animation-delay: .34s; }
     @keyframes wave { to { height: 11px; } }
 
-    
     @media (max-width: 760px) {
       main { width: min(100% - 36px, 680px); }
       .profile-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -610,7 +618,7 @@
     }
 
     @media (max-width: 520px) {
-      main { width: min(100% - 28px, 420px); min-height: 100svh; align-content: start; padding: 18px 0 78px; }
+      main { width: min(100% - 28px, 420px); min-height: 100svh; align-content: start; padding: 64px 0 78px; }
       .profile-grid { grid-template-columns: 1fr; gap: 10px; }
       .profile, .profile:nth-child(4), .profile:nth-child(5) { grid-column: 1; min-height: 235px; padding: 0; }
       .profile-face { padding: 19px; }
@@ -658,6 +666,7 @@
   </div>
 
   <main aria-label="Perfis">
+    <div class="brand-mark"><img src="./favicon.svg" alt="Olho com detalhe de sangue"></div>
     <section class="profile-grid" id="profile-grid" aria-label="Cinco perfis"></section>
   </main>
 
@@ -667,14 +676,12 @@
     <span class="equalizer" aria-hidden="true"><i></i><i></i><i></i></span>
   </button>
 
-  
   <audio id="custom-music" loop preload="auto">
     <source src="./music.mp3" type="audio/mpeg">
   </audio>
 
   <script src="./profiles.js"></script>
   <script>
-    
     function initMoltenMetalBackground() {
       const canvas = document.querySelector("#molten-background");
       const gl = canvas.getContext("webgl2", {
@@ -893,7 +900,6 @@
       const currentMouse = [0.5, 0.5];
       const targetMouse = [0.5, 0.5];
       const resize = () => {
-       
         const ratio = Math.min(window.devicePixelRatio || 1, 1);
         const width = Math.max(1, Math.floor(window.innerWidth * ratio));
         const height = Math.max(1, Math.floor(window.innerHeight * ratio));
@@ -1072,10 +1078,8 @@
     }
 
     initBloodTrail();
-   
     const PROFILE_DATA = Array.isArray(window.PROFILE_DATA) ? window.PROFILE_DATA : [];
 
-   
     const profileGrid = document.querySelector("#profile-grid");
 
     function escapeHtml(value) {
@@ -1216,7 +1220,6 @@
       image.addEventListener("error", () => image.remove());
     });
 
-    
     const bootMessages = [
       ["BOOT", "starting interface kernel"],
       [" OK ", "secure session initialized"],
@@ -1394,7 +1397,7 @@
           updateSoundButton();
           return;
         }
-      } catch { 
+      } catch {}
 
       if (!audioContext) {
         const AudioContextClass = window.AudioContext || window.webkitAudioContext;
@@ -1408,7 +1411,7 @@
         masterGain.connect(audioContext.destination);
       }
 
-      try { await audioContext.resume(); } catch { }
+      try { await audioContext.resume(); } catch {}
       if (audioContext.state !== "running") {
         soundLabel.textContent = "ATIVAR SOM";
         soundButton.setAttribute("aria-label", "Ativar música");
