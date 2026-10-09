@@ -6,7 +6,7 @@ window.PROFILE_DATA = [
     category: "opsec total",
     photo: "https://i.imgur.com/wmxbKoU.png",
     instagram: "https://instagram.com/opsec",
-    tiktok: "https://www.tiktok.com/opsec",
+    tiktok: "https://www.tiktok.com/opsectotal",
     roblox: "https://www.roblox.com/opsec"
   },
   {
@@ -45,7 +45,7 @@ window.PROFILE_DATA = [
     bio: "quem entende o jogo nunca se desespera",
     category: "",
     photo: "https://i.imgur.com/XAx5ZJa.png",
-    instagram: "https://instagram.com/opsec",
+    instagram: "https://instagram.com/golpenonubank",
     tiktok: "https://www.tiktok.com/opsec",
     roblox: "https://www.roblox.com/opsec"
   }
