@@ -1,19 +1,4 @@
-/*
-  EDITE OS PERFIS NESTE ARQUIVO.
 
-  name: nome que aparece no card.
-  handle: @ ou nome curto abaixo do nome.
-  bio: descrição curta.
-  category: texto pequeno no rodapé do card.
-  photo: link direto da imagem. No Imgur, use https://i.imgur.com/ID.jpg
-         Link de álbum (imgur.com/a/...) não funciona como imagem direta.
-         Deixe "" para mostrar a inicial do nome no lugar da foto.
-  instagram, tiktok, roblox: links que aparecem quando o card vira.
-         Use a URL completa começando com https://. Deixe "" para ocultar um link.
-
-  Para adicionar outro perfil, copie um bloco { ... }, cole antes do ]; e troque os dados.
-  Mantenha uma vírgula entre os blocos.
-*/
 window.PROFILE_DATA = [
   {
     name: "saddam",
