@@ -1,4 +1,3 @@
-
 window.PROFILE_DATA = [
   {
     name: "saddam",
@@ -26,7 +25,7 @@ window.PROFILE_DATA = [
     bio: "always more money",
     category: "",
     photo: "https://i.imgur.com/nTpenTl.png",
-    instagram: "https://instagram.com/golpenomaster",
+    instagram: "https://instagram.com/opsec",
     tiktok: "https://www.tiktok.com/opsec",
     roblox: "https://www.roblox.com/opsec"
   },
