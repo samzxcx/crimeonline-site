@@ -15,9 +15,9 @@ window.PROFILE_DATA = [
     bio: "cryptofraud",
     category: "",
     photo: "https://i.imgur.com/hzFsS24.jpeg",
-    instagram: "https://instagram.com/opsec",
+    instagram: "doxxadores.xyz",
     tiktok: "https://www.tiktok.com/@criptofraude",
-    roblox: "https://www.roblox.com/opsec"
+    roblox: "doxxadores.xyz"
   },
   {
     name: "Dzr",
@@ -36,7 +36,7 @@ window.PROFILE_DATA = [
     category: "",
     photo: "https://i.imgur.com/XAx5ZJa.png",
     instagram: "https://www.instagram.com/golpenonubank/",
-    tiktok: "https://www.tiktok.com/opsec",
-    roblox: "https://www.roblox.com/opsec"
+    tiktok: "doxxadores.xyz",
+    roblox: "doxxadores.xyz"
   }
 ];
