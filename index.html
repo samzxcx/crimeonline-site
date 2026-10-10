@@ -258,15 +258,12 @@
       width: min(100%, 930px);
       margin: auto;
       display: grid;
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 14px;
       perspective: 1200px;
     }
 
     .profile { grid-column: span 2; }
-    .profile:nth-child(4) { grid-column: 2 / span 2; }
-    .profile:nth-child(5) { grid-column: 4 / span 2; }
-
     .profile {
       position: relative;
       min-height: 278px;
@@ -614,13 +611,13 @@
     @media (max-width: 760px) {
       main { width: min(100% - 36px, 680px); }
       .profile-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .profile, .profile:nth-child(4), .profile:nth-child(5) { grid-column: span 2; }
+      .profile { grid-column: span 2; }
     }
 
     @media (max-width: 520px) {
       main { width: min(100% - 28px, 420px); min-height: 100svh; align-content: start; padding: 64px 0 78px; }
       .profile-grid { grid-template-columns: 1fr; gap: 10px; }
-      .profile, .profile:nth-child(4), .profile:nth-child(5) { grid-column: 1; min-height: 235px; padding: 0; }
+      .profile { grid-column: 1; min-height: 235px; padding: 0; }
       .profile-face { padding: 19px; }
       .profile-social { min-height: 38px; }
       .sound { right: 14px; bottom: 14px; }
@@ -667,7 +664,7 @@
 
   <main aria-label="Perfis">
     <div class="brand-mark"><img src="./favicon.svg" alt="Olho com detalhe de sangue"></div>
-    <section class="profile-grid" id="profile-grid" aria-label="Cinco perfis"></section>
+    <section class="profile-grid" id="profile-grid" aria-label="Quatro perfis"></section>
   </main>
 
   <button class="sound" id="sound" type="button" aria-pressed="false" aria-label="Mutar música">
@@ -1223,7 +1220,7 @@
     const bootMessages = [
       ["BOOT", "starting interface kernel"],
       [" OK ", "secure session initialized"],
-      [" OK ", "profile modules loaded: 05"],
+      [" OK ", "profile modules loaded: 04"],
       [" OK ", "avatar assets mounted"],
       [" OK ", "ambient audio engine ready"],
       ["DONE", "waiting for user input"]
