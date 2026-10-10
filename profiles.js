@@ -4,10 +4,10 @@ window.PROFILE_DATA = [
     handle: "golpenoitau",
     bio: "i script some things",
     category: "opsec total",
-    photo: "https://i.imgur.com/wmxbKoU.png",
-    instagram: "https://instagram.com/opsec",
-    tiktok: "https://www.tiktok.com/opsectotal",
-    roblox: "https://www.roblox.com/opsec"
+    photo: "https://i.imgur.com/eLfaCMX.jpeg",
+    instagram: "doxxadores.xyz",
+    tiktok: "https://www.tiktok.com/@opsectotal",
+    roblox: "doxxadores.xyz"
   },
   {
     name: "Mey",
@@ -16,7 +16,7 @@ window.PROFILE_DATA = [
     category: "",
     photo: "https://i.imgur.com/hzFsS24.jpeg",
     instagram: "https://instagram.com/opsec",
-    tiktok: "https://www.tiktok.com/criptofraude",
+    tiktok: "https://www.tiktok.com/@criptofraude",
     roblox: "https://www.roblox.com/opsec"
   },
   {
@@ -25,19 +25,9 @@ window.PROFILE_DATA = [
     bio: "always more money",
     category: "",
     photo: "https://i.imgur.com/nTpenTl.png",
-    instagram: "https://instagram.com/opsec",
-    tiktok: "https://www.tiktok.com/opsec",
-    roblox: "https://www.roblox.com/opsec"
-  },
-  {
-    name: "ryuk",
-    handle: "golpenacoinbase",
-    bio: "amo ruggar moedas",
-    category: "13 de julho 2026",
-    photo: "https://i.imgur.com/TBgWfNs.png",
-    instagram: "https://instagram.com/opsec",
-    tiktok: "https://www.tiktok.com/opsec",
-    roblox: "https://www.roblox.com/opsec"
+    instagram: "https://www.instagram.com/golpenomaster?dlrf=MTBjbmp4cG9jYWpydg==",
+    tiktok: "https://www.tiktok.com/@boywholevampires",
+    roblox: "https://www.roblox.com/share?code=a834ffb4bd797c4cb93d58d435b3b2e3&type=Profile&source=ProfileShare&stamp=1791643955576"
   },
   {
     name: "Civil",
@@ -45,7 +35,7 @@ window.PROFILE_DATA = [
     bio: "quem entende o jogo nunca se desespera",
     category: "",
     photo: "https://i.imgur.com/XAx5ZJa.png",
-    instagram: "https://instagram.com/golpenonubank",
+    instagram: "https://www.instagram.com/golpenonubank/",
     tiktok: "https://www.tiktok.com/opsec",
     roblox: "https://www.roblox.com/opsec"
   }
