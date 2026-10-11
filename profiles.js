@@ -23,7 +23,7 @@ window.PROFILE_DATA = [
     handle: "iwishyouhardme",
     bio: "cryptofraud",
     category: "",
-    location: "Arizona",
+    location: "Canada",
     badges: [],
     discordName: "golpenaphantom",
     discordUrl: "https://discord.gg/bEyFSBKcN",
