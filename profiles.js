@@ -8,7 +8,7 @@ window.PROFILE_DATA = [
     badges: ["Developer"],
     discordName: "crimeslol",
     discordUrl: "",
-    discordAvatar: "https://i.imgur.com/eLfaCMX.jpeg",
+    discordAvatar: "https://i.imgur.com/mQ27XgL.png",
     discordStatus: "Não perturbe",
     instagramText: "",
     tiktokText: "",
